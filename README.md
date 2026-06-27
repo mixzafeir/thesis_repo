@@ -116,6 +116,12 @@ assembled into separate intermediate parquets and merged at the reporting stage.
 
 ---
 
+## Utilities (not part of the numbered pipeline)
+
+- `stats_significance_tests.py` — reproduces the chi-square significance tests
+  reported in §6.6 (framing-usage × stance, and sentiment × stance within each
+  framing category). Run after `07_finetune.py`.
+
 ## Notes on outputs
 
 Generated files (parquets, CSVs, plots, `.xlsx` reports) are written to
